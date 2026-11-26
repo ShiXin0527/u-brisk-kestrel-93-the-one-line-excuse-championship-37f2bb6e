@@ -1,19 +1,14 @@
 #!/usr/bin/env python3
-"""Entry for make.fun bounty: The One-Line Excuse Championship
+"""One-line excuse for the make.fun bounty.
 
-A tiny one-liner joke program. Run it and it prints the joke.
+Run it and it prints the joke. Keep it to one line, that's the whole bit.
 """
 
 JOKE = "My excuse is that I don't have an excuse. Which is, in itself, an excuse. I'm very good at this."
 
 
-def tell_joke():
-    """Return the one-line joke for this bounty."""
-    return JOKE
-
-
 def main():
-    print(tell_joke())
+    print(JOKE)
 
 
 if __name__ == "__main__":
